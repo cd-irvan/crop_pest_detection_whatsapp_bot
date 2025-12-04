@@ -76,21 +76,8 @@ whatsapp_bot/
 └── README.md              # This file
 ```
 
-## API Requirements
 
-See `API_REQUIREMENTS.md` for detailed information about:
-- Required APIs (Twilio)
-- Setup steps
-- Cost estimates
-- Alternatives
 
-## Setup Guide
-
-See `SETUP_GUIDE.md` for:
-- Step-by-step installation
-- Twilio configuration
-- Deployment options
-- Troubleshooting
 
 ## Environment Variables
 
@@ -120,11 +107,7 @@ ngrok http 5000
 gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ```
 
-### Cloud Platforms
 
-- **Heroku**: `git push heroku main`
-- **Railway**: Connect GitHub repo
-- **DigitalOcean**: Deploy on Droplet
 
 ## API Endpoints
 
@@ -139,18 +122,8 @@ Uses fine-tuned YOLO12n model trained on AgroPest-12 dataset:
 - High accuracy (mAP@50: ~0.75-0.85)
 - Fast inference (~100ms per image)
 
-## Cost
 
-- **Twilio**: ~$0.005 per message
-- **Free trial**: $15 credit (~1,500 messages)
-- **Monthly estimate**: $5-10 for 1,000 users
 
-## Security
-
-- ✅ Environment variables for secrets
-- ✅ HTTPS required (Twilio)
-- ✅ Input validation
-- ✅ Error handling
 
 ## Troubleshooting
 
