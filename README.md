@@ -4,11 +4,11 @@ A WhatsApp bot that identifies crop pests from images using YOLO12n deep learnin
 
 ## Features
 
-- 📸 **Image Processing**: Receives pest images via WhatsApp
-- 🐛 **Pest Detection**: Identifies 12 types of crop pests
-- 📱 **WhatsApp Integration**: Easy-to-use WhatsApp interface
-- ⚡ **Fast Inference**: Real-time pest detection
-- 🎯 **Accurate**: Fine-tuned on AgroPest-12 dataset
+- Image Processing: Receives pest images via WhatsApp
+- Pest Detection: Identifies 12 types of crop pests
+- WhatsApp Integration: Easy-to-use WhatsApp interface
+- Fast Inference: Real-time pest detection
+- Accurate: Fine-tuned on AgroPest-12 dataset
 
 ## Supported Pests
 
