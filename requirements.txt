@@ -1,0 +1,28 @@
+# WhatsApp Bot Dependencies
+
+# Web Framework
+Flask==3.0.0
+gunicorn==21.2.0
+
+# Twilio SDK for WhatsApp
+twilio==8.10.0
+
+# YOLO Model
+ultralytics==8.3.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image Processing
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.3
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Logging
+python-json-logger==2.0.7
+
